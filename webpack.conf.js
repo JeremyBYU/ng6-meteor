@@ -3,7 +3,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js?$/, loader: 'ng-annotate!babel', exclude: /\.meteor|node_modules/ },
-      { test: /\.jade$/, loader: 'jade' }
+      { test: /\.html\.import$/, loader: 'html' }
     ]
   }
 }
