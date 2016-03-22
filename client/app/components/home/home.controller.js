@@ -1,7 +1,7 @@
 class HomeController {
   constructor() {
-    this.name = 'home';
+    this.name = 'home'
   }
 }
 
-export default HomeController;
+export default HomeController

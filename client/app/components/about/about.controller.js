@@ -1,7 +1,7 @@
 class AboutController {
   constructor() {
-    this.name = 'about';
+    this.name = 'about'
   }
 }
 
-export default AboutController;
+export default AboutController

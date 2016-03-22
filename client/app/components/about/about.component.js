@@ -1,6 +1,6 @@
-import template from './about.html.import';
-import controller from './about.controller';
-import './about.styl';
+import template from './about.html.import'
+import controller from './about.controller'
+import './about.styl'
 
 let aboutComponent = {
   restrict: 'E',
@@ -8,6 +8,6 @@ let aboutComponent = {
   template,
   controller,
   controllerAs: 'vm'
-};
+}
 
-export default aboutComponent;
+export default aboutComponent
