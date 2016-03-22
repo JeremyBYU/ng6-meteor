@@ -1,5 +1,0 @@
-<div>
-  <ul>
-    <li ng-repeat='order in vm.orders'>{{order.name}}</li>   
-  </ul>
-</div>

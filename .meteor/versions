@@ -76,4 +76,5 @@ webpack:css@1.0.1
 webpack:npmworkaround@1.0.0
 webpack:react@1.1.3
 webpack:reload@1.0.0
+webpack:stylus@1.1.0
 webpack:webpack@1.0.11
