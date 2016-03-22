@@ -4,10 +4,14 @@ import Common from './common/common'
 import Components from './components/components'
 import AppComponent from './app.component'
 
+// Angular Meteor Integration, see angular-meteor.com for documentation
+import 'angular-meteor'
+
 angular.module('app', [
   uiRouter,
   Common.name,
-  Components.name
+  Components.name,
+  'angular-meteor'
 ])
   .config(($locationProvider) => {
     'ngInject'
