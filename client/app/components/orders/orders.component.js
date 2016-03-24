@@ -1,4 +1,4 @@
-import template from './oreders.html.import'
+import template from './orders.html.import'
 import controller from './orders.controller'
 import './orders.styl'
 

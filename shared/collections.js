@@ -1,4 +1,3 @@
-console.log('Collections')
 
 let Orders = new Mongo.Collection('orders')
 

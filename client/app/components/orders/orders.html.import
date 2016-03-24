@@ -1,5 +1,10 @@
 <navbar></navbar>
 <h1>{{ vm.name }}</h1>
 <section>
-  About us.
+  Orders:
+  <ul>
+    <li ng-repeat="order in vm.orders">
+      {{order.name}}
+    </li>
+  </ul>
 </section>

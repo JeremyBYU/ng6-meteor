@@ -1,6 +1,6 @@
-import template from './navbar.html.import';
-import controller from './navbar.controller';
-import './navbar.styl';
+import template from './navbar.html.import'
+import controller from './navbar.controller'
+import './navbar.styl'
 
 let navbarComponent = {
   restrict: 'E',
@@ -8,6 +8,6 @@ let navbarComponent = {
   template,
   controller,
   controllerAs: 'vm'
-};
+}
 
-export default navbarComponent;
+export default navbarComponent
