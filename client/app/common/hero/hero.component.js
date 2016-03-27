@@ -1,6 +1,6 @@
-import template from './hero.html.import';
-import controller from './hero.controller';
-import './hero.styl';
+import template from './hero.html.import'
+import controller from './hero.controller'
+import './hero.css'
 
 let heroComponent = {
   restrict: 'E',
@@ -8,6 +8,6 @@ let heroComponent = {
   template,
   controller,
   controllerAs: 'vm'
-};
+}
 
-export default heroComponent;
+export default heroComponent

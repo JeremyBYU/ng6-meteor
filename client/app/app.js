@@ -3,11 +3,14 @@ import uiRouter from 'angular-ui-router'
 import Common from './common/common'
 import Components from './components/components'
 import AppComponent from './app.component'
+import uiBootstrap from 'angular-ui-bootstrap'
+console.log()
 
 // Angular Meteor Integration, see angular-meteor.com for documentation
 import 'angular-meteor'
 
 angular.module('app', [
+  uiBootstrap,
   uiRouter,
   Common.name,
   Components.name,
