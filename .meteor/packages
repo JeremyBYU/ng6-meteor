@@ -18,8 +18,7 @@ insecure                # Allow all DB writes from clients (for prototyping)
 standard-minifier-css
 standard-minifier-js
 static-html
-webpack:stylus
 accounts-password
 webpack:angular
-webpack:css@1.1.0
+webpack:css@1.0.1
 webpack:webpack@1.0.8
