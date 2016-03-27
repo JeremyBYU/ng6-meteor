@@ -1,6 +1,6 @@
 import template from './navbar.html.import'
 import controller from './navbar.controller'
-import './navbar.styl'
+import './navbar.css'
 
 let navbarComponent = {
   restrict: 'E',
